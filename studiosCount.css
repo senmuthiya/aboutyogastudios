@@ -1,0 +1,126 @@
+body{
+  font-family:Helvetica,Arial;
+  font-size:9px;
+  padding:20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.menu {
+  float: left;
+  line-height: 50px;
+  margin: 0 4em;
+}
+
+/* Code to hover - Sen */
+.menu a:hover {
+  background-color: #FFFFFF;
+  /* border-bottom: 3px solid black; */
+
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: lighter;
+  padding: 0 20px;
+
+}
+
+#map-wrapper{
+  /* background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Map_of_USA_without_state_names.svg/2000px-Map_of_USA_without_state_names.svg.png') no-repeat, center, center; */
+  background: url('images/YogaStudio_Allstates.png') no-repeat, center;
+  background-size:contain;
+  width:825px;
+  height:450px;
+  margin-top:50px;
+  position:relative;
+}
+.picture{
+  background:#fff;
+  display:block;
+  float:left;
+  padding:.5%;
+  border:2px solid #000;
+  max-width:7%;
+  position:absolute;
+  transition: all .2s ease-in-out;
+  cursor:pointer;
+}
+.picture:hover{
+  transform: rotate(0) scale(3);
+  z-index: 5;
+}
+.picture img{
+  display:block;
+  max-width:100%;
+  background:#ddd;
+}
+.picture .caption{
+  text-align:center;
+  padding:3px 0;
+}
+.picture-1{
+  left:5%;
+  top:10%;
+  transform: rotate(-15deg);
+}
+.picture-2{
+  left:82%;
+  top:45%;
+  /* z-index: 5; */
+  transform: rotate(15deg);
+}
+.picture-3{
+  left:78%;
+  top:15%;
+  transform: rotate(15deg);
+}
+.picture-4{
+  left:5%;
+  top:50%;
+  transform: rotate(20deg);
+}
+.picture-5{
+  left:30%;
+  top:45%;
+  transform: rotate(-10deg);
+}
+.picture-6{
+  left:55%;
+  top:40%;
+  transform: rotate(-5deg);
+}
+.picture-7{
+  left:70%;
+  top:80%;
+  transform: rotate(-10deg);
+}
+.picture-8{
+  left:91%;
+  top:30%;
+  /* z-index: 5; */
+  transform: rotate(-15deg);
+}
+.picture-9{
+  left:73%;
+  top:36%;
+  transform: rotate(5deg);
+}
+.picture-10{
+  left:41%;
+  top:72%;
+  transform: rotate(15deg);
+}
